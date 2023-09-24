@@ -65,6 +65,7 @@ class Player(GameSprite):
     def fire(self):
         bullet = Bullet(img_bullet, self.rect.centerx, self.rect.top, 15, 20, -15)
         bullets.add(bullet)
+     #perjan ti zvilneniy
  
 # клас спрайта-ворога
 class Enemy(GameSprite):
